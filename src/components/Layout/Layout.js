@@ -4,11 +4,9 @@ export const Layout = ({ children }) => {
       <div className="max-w-2xl mx-auto">
         <header className="text-center">
           <h1 className="text-center font-bold text-2xl mb-4 md:text-4xl md:mt-6">
-            Optimización de React
+            Optimizations in React
           </h1>
-          <p className="mb-8 leading-tight">
-            Cómo evitar renderizados innecesarios
-          </p>
+          <p className="mb-8 leading-tight">How to avoid unnecessary renders</p>
         </header>
         {children}
       </div>
